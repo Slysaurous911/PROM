@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "0.1.0",
+      "sem_ver" : "1.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "b36bf9a73c02bd947c2de31d1af57423",
+      "MD5-CAM-1.0.1" : "ee077923cce9e9081a106078204e9fbf",
       "PARENT:MD5-CAM-1.0.1" : "B90C9995DE7CA7BCA27AAC9A42E00280"
     },
     "details" : {
@@ -168,10 +168,10 @@
         "@type" : "C_ARCHETYPE_ROOT",
         "rmTypeName" : "OBSERVATION",
         "occurrences" : "0..1",
-        "nodeId" : "at0.2",
+        "nodeId" : "at0.4",
         "attributes" : [ ],
         "attributeTuples" : [ ],
-        "archetypeRef" : "openEHR-EHR-OBSERVATION.ovl-eq_5d_5l-001.v0",
+        "archetypeRef" : "openEHR-EHR-OBSERVATION.ovl-rand_36-001.v0",
         "referenceType" : "archetypeOverlay"
       } ]
     } ],
@@ -267,7 +267,7 @@
   "otherMetaData" : { },
   "templateOverlays" : [ {
     "@type" : "TEMPLATE_OVERLAY",
-    "uid" : "eab09054-8108-40fc-8188-1138f74eac6e",
+    "uid" : "102b899a-9c79-4dea-bdf5-6edba4d52228",
     "description" : {
       "@type" : "RESOURCE_DESCRIPTION",
       "originalAuthor" : { },
@@ -276,15 +276,15 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "63B3F549C5D48993BEC02476100151E5"
+        "PARENT:MD5-CAM-1.0.1" : "75c863548805fa4c14753ffa6d7aef9d"
       },
       "details" : { }
     },
-    "parentArchetypeId" : "openEHR-EHR-OBSERVATION.eq_5d_5l.v0",
+    "parentArchetypeId" : "openEHR-EHR-OBSERVATION.rand_36.v0",
     "differential" : true,
     "archetypeId" : {
       "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-OBSERVATION.ovl-eq_5d_5l-001.v0"
+      "value" : "openEHR-EHR-OBSERVATION.ovl-rand_36-001.v0"
     },
     "definition" : {
       "@type" : "C_COMPLEX_OBJECT",
@@ -297,15 +297,14 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { },
-        "de" : { }
+        "en" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
       "valueSets" : { }
     },
     "adlVersion" : "1.4",
-    "buildUid" : "86f191d7-6048-4808-b7a8-c34d44d693bb",
+    "buildUid" : "75860037-bcea-30e7-8453-d9de6b70274d",
     "rmName" : "openehr",
     "rmRelease" : "1.1.0",
     "generated" : true,
@@ -316,21 +315,7 @@
       },
       "codeString" : "en"
     },
-    "translations" : [ {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "de"
-      },
-      "author" : {
-        "name" : "Johannes Schmidt",
-        "organisation" : "Better Deutschland GmbH",
-        "email" : "johannes.schmidt@better.care"
-      },
-      "otherDetails" : { }
-    } ]
+    "translations" : [ ]
   } ],
   "originalLanguage" : {
     "terminologyId" : {
